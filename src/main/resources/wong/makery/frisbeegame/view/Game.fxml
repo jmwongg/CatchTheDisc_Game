@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="gamePane" prefHeight="1000.0" prefWidth="1600.0" styleClass="pane" stylesheets="@Game.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wong.makery.frisbeegame.view.GameController">
+   <children>
+      <ButtonBar buttonMinWidth="0.0" prefHeight="100.0" prefWidth="200.0">
+        <buttons>
+          <Button id="exitBtn" fx:id="exitBtn" defaultButton="true" minWidth="58.0" mnemonicParsing="false" onAction="#handleQuit" prefHeight="84.0" prefWidth="100.0" styleClass="btn" />
+            <Button id="restartBtn" fx:id="restartBtn" defaultButton="true" mnemonicParsing="false" onAction="#handleRestart" prefHeight="100.0" prefWidth="250.0" styleClass="btn" />
+        </buttons>
+      </ButtonBar>
+       <Label fx:id="scoreLabel" layoutX="1325.0" layoutY="65.0" styleClass="scoreLabel" text="Score: 0" />
+   </children>
+</Pane>

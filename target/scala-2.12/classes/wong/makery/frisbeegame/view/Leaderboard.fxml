@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" styleClass="anchor-pane" stylesheets="@Leaderboard.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wong.makery.frisbeegame.view.LeaderboardController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfb7a7" height="50.0" layoutX="37.0" layoutY="328.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfb7a7" height="50.0" layoutX="37.0" layoutY="274.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfb7a7" height="50.0" layoutX="37.0" layoutY="219.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfb7a7" height="50.0" layoutX="37.0" layoutY="164.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfb7a7" height="50.0" layoutX="37.0" layoutY="109.0" stroke="BLACK" strokeType="INSIDE" width="276.0" />
+      <Text layoutX="89.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="LEADERBOARD" />
+      <TextField fx:id="first_score" editable="false" focusTraversable="false" layoutX="225.0" layoutY="114.0" prefHeight="33.0" prefWidth="75.0" styleClass="leaderboard_score" />
+      <TextField fx:id="second_score" editable="false" focusTraversable="false" layoutX="225.0" layoutY="170.0" prefHeight="33.0" prefWidth="75.0" styleClass="leaderboard_score" />
+      <TextField fx:id="third_score" editable="false" focusTraversable="false" layoutX="225.0" layoutY="224.0" prefHeight="33.0" prefWidth="75.0" styleClass="leaderboard_score" />
+      <TextField fx:id="fourth_score" editable="false" focusTraversable="false" layoutX="225.0" layoutY="279.0" prefHeight="33.0" prefWidth="75.0" styleClass="leaderboard_score" />
+      <TextField fx:id="fifth_score" editable="false" focusTraversable="false" layoutX="225.0" layoutY="333.0" prefHeight="33.0" prefWidth="75.0" styleClass="leaderboard_score" />
+
+      <TextField fx:id="first_username" editable="false" focusTraversable="false" layoutX="83.0" layoutY="114.0" prefHeight="33.0" prefWidth="126.0" styleClass="leaderboard_username" />
+      <TextField fx:id="second_username" editable="false" focusTraversable="false" layoutX="83.0" layoutY="169.0" prefHeight="33.0" prefWidth="126.0" styleClass="leaderboard_username" />
+      <TextField fx:id="third_username" editable="false" focusTraversable="false" layoutX="83.0" layoutY="224.0" prefHeight="33.0" prefWidth="126.0" styleClass="leaderboard_username" />
+      <TextField fx:id="fourth_username" editable="false" focusTraversable="false" layoutX="83.0" layoutY="279.0" prefHeight="33.0" prefWidth="126.0" styleClass="leaderboard_username" />
+      <TextField fx:id="fifth_username" editable="false" focusTraversable="false" layoutX="83.0" layoutY="333.0" prefHeight="33.0" prefWidth="126.0" styleClass="leaderboard_username" />
+
+      <ImageView id="1st_place" fitHeight="50.0" fitWidth="34.0" layoutX="43.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1st_place.png" />
+         </image>
+      </ImageView>
+      <ImageView id="2nd_place" fitHeight="50.0" fitWidth="61.0" layoutX="42.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/2nd_place.png" />
+         </image>
+      </ImageView>
+      <ImageView id="3rd_place" fitHeight="50.0" fitWidth="61.0" layoutX="45.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/3rd_place.png" />
+         </image>
+      </ImageView>
+      <ImageView id="4th_place" fitHeight="50.0" fitWidth="44.0" layoutX="37.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/4th_place.png" />
+         </image>
+      </ImageView>
+      <ImageView id="5th_place" fitHeight="50.0" fitWidth="44.0" layoutX="37.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/5th_place.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

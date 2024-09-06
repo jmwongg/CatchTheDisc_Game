@@ -1,0 +1,102 @@
+
+/* Apply a background image to the AnchorPane */
+.anchor-pane {
+    -fx-background-image: url("../images/character_bg.jpg");
+    -fx-background-size: 100%; /* Scale image to fit within the pane */
+    -fx-background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.character_btn {
+    -fx-background-color: none;
+    -fx-padding: 10px 20px; /* Padding around the text */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-radius: 10px; /* Rounded border corners */
+    -fx-border-width: 2px; /* Border width */
+}
+
+.character_btn:hover {
+    -fx-background-color: none;
+    -fx-background-size: 150%;
+    -fx-cursor: hand;
+}
+
+/* Style for the Button */
+#chihuahua_profile {
+    -fx-background-image: url("../images/chihuahua_profile.png");
+}
+
+#beagle_profile {
+    -fx-background-image: url("../images/beagle_profile.png");
+}
+#maltese_profile {
+    -fx-background-image: url("../images/maltese_profile.png");
+}
+
+#labrador_profile {
+    -fx-background-image: url("../images/labrador_profile.png");
+}
+#dachshund_profile {
+    -fx-background-image: url("../images/dachshund_profile.png");
+}
+
+
+#beagle_profile, #maltese_profile, #chihuahua_profile,#labrador_profile,#dachshund_profile{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 150px;
+    -fx-max-width: 150px;
+    -fx-max-height: 150px;
+    -fx-transition: scale 0.3s; /* Smooth transition */
+    }
+
+#chihuahua_profile{
+    -fx-background-size: cover;
+}
+
+#beagle_profile,#dachshund_profile, #chihuahua_profile, #maltese_profile{
+    -fx-background-size: 70%; /*cover 70% of the button's width and height*/
+}
+
+
+#labrador_profile{
+    -fx-background-size: 65%;
+}
+
+#maltese_profile:hover{
+    -fx-background-image:url("../images/maltese_run.png") ;
+    -fx-background-size: 95%; /*Increase size on hover */
+    -fx-transition: scale 0.3s; /* Smooth transition */
+}
+
+#chihuahua_profile:hover{
+    -fx-background-image:url("../images/chihuahua_run.png");
+    -fx-background-size: 85%; /* Increase size on hover */
+    -fx-transition: scale 0.3s; /* Smooth transition */
+}
+#beagle_profile:hover{
+    -fx-background-image: url("../images/beagle_run.png");
+    -fx-background-size: 85%; /* Increase size on hover */
+    -fx-transition: scale 0.3s; /* Smooth transition */
+}
+
+#labrador_profile:hover{
+    -fx-background-image: url("../images/labrador_run.png");
+    -fx-background-size: 80%; /* Increase size on hover */
+    -fx-transition: scale 0.3s; /* Smooth transition */
+}
+#dachshund_profile:hover {
+    -fx-background-image: url("../images/dachshund_run.png");
+    -fx-background-size: 90%; /* Increase size on hover */
+    -fx-transition: scale 0.3s; /* Smooth transition */
+}
+
+/* Style for the Text */
+.label, #chooseYourCharacter{
+    -fx-text-fill: #1E2A5E; /*Black color */
+    -fx-font-size: 20px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-text-alignment: center; /* Center align text */
+    -fx-alignment:center;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}

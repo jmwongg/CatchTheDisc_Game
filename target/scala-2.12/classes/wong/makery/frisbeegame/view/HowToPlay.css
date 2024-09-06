@@ -1,0 +1,39 @@
+.anchor-pane {
+    -fx-background-image: url("../images/character_bg.jpg");
+    -fx-background-size: 100%; /* Scale image to fit within the pane */
+    -fx-background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+/* Style for the Button */
+.arrow {
+    -fx-background-image: url("../images/bluearrow.png");
+    -fx-background-color: none;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+.arrow:hover {
+    -fx-cursor: hand;
+    -fx-background-color: none;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.7), 10, 0.5, 0, 0);
+    -fx-brightness: 1.2;
+}
+
+/* Style for the Instruction Text */
+.title {
+    -fx-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold; /* Bold text */
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+
+}
+
+/* Style for the Instruction Title */
+.text{
+    -fx-fill: blue; /* White text color */
+    -fx-font-size: 15px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-stroke-width: 1px; /* Stroke width */
+    -fx-stroke: white; /* Stroke color */
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}

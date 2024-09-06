@@ -1,0 +1,39 @@
+/* leaderboard.css */
+
+.anchor-pane{
+    -fx-background-image: url("../images/wood_bg.jpg");
+    -fx-background-size: cover;
+}
+
+.title {
+    -fx-fill: #ffffff;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.leaderboard_username, .leaderboard_score {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6F4E37;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+TextField:disabled {
+    -fx-opacity: 1.0;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+    -fx-alignment: center;
+}
+
+Text-field:focused {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}

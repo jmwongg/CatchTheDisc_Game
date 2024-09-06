@@ -1,0 +1,31 @@
+.pane{
+    -fx-background-image: url("../images/grass_bg.jpg");
+    -fx-background-size: contain; /* Scale image to fit within the pane */
+    -fx-background-repeat: repeat; /* Do not repeat the image */
+}
+
+.btn{
+    -fx-background-color: none;
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-radius: 10px; /* Rounded border corners */
+    -fx-border-width: 2px; /* Border width */
+    -fx-cursor: hand;
+}
+#exitBtn{
+    -fx-background-image: url("../images/quit.png");
+    -fx-background-size: cover;
+}
+
+#restartBtn{
+    -fx-background-image: url("../images/restart.png");
+    -fx-background-size: cover;
+}
+
+.scoreLabel {
+    -fx-fill: #000000; /* White text color */
+    -fx-font-size: 24px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-text-alignment: right; /* Center align text */
+    -fx-stroke-width: 1px; /* Stroke width */
+    -fx-stroke: #000000; /* Stroke color */
+}

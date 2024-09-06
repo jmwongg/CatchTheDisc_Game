@@ -1,0 +1,55 @@
+/*styling for popup dialog*/
+.dialog-pane {
+    -fx-background-image: url("../images/gameOver_bg.jpeg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.dialog-pane .text {
+    -fx-text-fill: white;
+}
+
+/* Style for the Button */
+.button {
+    -fx-background-color: #e21244;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 15px; /* Font size */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px; /* Padding around the text */
+    -fx-background-radius: 50px; /* Rounded corners */
+    -fx-border-radius: 50px; /* Rounded border corners */
+    -fx-border-width: 2px; /* Border width */
+}
+
+.button:hover {
+    -fx-background-color: derive(#e21244,50%);
+    -fx-cursor: hand;
+}
+
+/* Style for the Text */
+#quitBtn{
+    -fx-fill: #ffffff; /* White text color */
+    -fx-font-size: 24px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-text-alignment: center; /* Center align text */
+    -fx-stroke-width: 1px; /* Stroke width */
+    -fx-stroke: #000000; /* Stroke color */
+}
+
+#restartBtn {
+    -fx-fill: #ffffff;
+    -fx-font-size: 24px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-text-alignment: center; /* Center align text */
+    -fx-stroke-width: 1px; /* Stroke width */
+    -fx-stroke: #000000; /* Stroke color */
+}
+
+#gameOver {
+    -fx-fill: #ffffff;
+    -fx-font-size: 20px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-text-alignment: center; /* Center align text */
+    -fx-stroke-width: 1px; /* Stroke width */
+    -fx-stroke: #000000; /* Stroke color */
+}

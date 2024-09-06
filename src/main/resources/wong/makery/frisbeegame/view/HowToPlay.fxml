@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" styleClass="anchor-pane" stylesheets="@HowToPlay.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wong.makery.frisbeegame.view.InstructionController">
+    <children>
+        <AnchorPane prefHeight="450.0" prefWidth="650.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox layoutX="31.0" layoutY="35.0" spacing="15.0" styleClass="text">
+                    <children>
+                        <Text id="howToPlay" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="HOW TO PLAY" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="1. Pick your adorable doggy and get ready to catch some frisbees!" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="2. Move your doggy left, right, up, or down using the arrow keys." wrappingWidth="481.9125973582268" />
+                    </children>
+                </VBox>
+                <VBox layoutX="31.0" layoutY="185.0" prefHeight="145.0" prefWidth="514.0" spacing="15.0" styleClass="text">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Points Calculation" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="1. Catching frisbees will earn you a whopping 100 points! " />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="2. Catching a bone as a treat will give you 50 points. Yum!" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="3. Be careful out there! Catching a bomb will make you lose 1 life. Oops!" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="4. Every doggy starts with 5 lives. Keep an eye on your lives as you play!" wrappingWidth="536.9951171875" />
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+        <Button defaultButton="true" layoutX="537.0" layoutY="348.0" mnemonicParsing="false" onAction="#getStarted" prefHeight="72.0" prefWidth="77.0" styleClass="arrow" />
+    </children>
+</AnchorPane>

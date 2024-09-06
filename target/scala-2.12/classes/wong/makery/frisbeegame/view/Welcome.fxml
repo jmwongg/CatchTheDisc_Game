@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="anchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="597.0" styleClass="anchor-pane" stylesheets="@Welcome.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wong.makery.frisbeegame.view.WelcomeController">
+<children>
+      <BorderPane layoutX="7.0" layoutY="134.0" prefHeight="101.0" prefWidth="192.0">
+         <bottom>
+         <Text id="catchthedisc" fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="CATCH THE DISC" textAlignment="CENTER" wrappingWidth="104.26953125" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <HBox layoutX="31.0" layoutY="250.0" prefHeight="136.0" prefWidth="192.0" spacing="10.0" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="374.0" AnchorPane.topAnchor="250.0">
+         <children>
+            <VBox prefHeight="137.0" prefWidth="179.0" spacing="10.0">
+               <children>
+               <Button id="start" fx:id="startButton" defaultButton="true" mnemonicParsing="false" onAction="#getStart" prefHeight="39.0" prefWidth="165.0" styleClass="text" text="START" />
+               <Button id="leaderboard" defaultButton="true" mnemonicParsing="false" onAction="#getLeaderboard" prefWidth="165.0" styleClass="text" text="LEADERBOARD" />
+                  <Button id="quit" cancelButton="true" mnemonicParsing="false" onAction="#quitGame" prefHeight="39.0" prefWidth="165.0" styleClass="text" text="EXIT" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+</children>
+</AnchorPane>
