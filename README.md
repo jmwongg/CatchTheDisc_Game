@@ -4,4 +4,5 @@ This is a simple game created in Scala utilizing the JavaFX library and CSS, fea
 
 # Game Demo Video Link
 https://youtu.be/w7kql4peDBc
-![image](game demo.gif)
+
+![Game Demo](game%20demo.gif)
